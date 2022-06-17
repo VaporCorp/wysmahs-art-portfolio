@@ -1,0 +1,28 @@
+$Brun : #AF6146;
+$VertClair : #74B68C;
+$RosePale : #FCEEF6;
+$VertFonce : #177A6E;
+$NoirPerso : 393E41;
+$Jaune : #fCC33E;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #DDD;
+}
+
+header {
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 0 0 1rem 1rem;
+    background-color: #FFF;
+    img {
+        height: 3rem;
+        width: auto;
+        display: block;
+        margin: 0 auto;
+    }
+}
