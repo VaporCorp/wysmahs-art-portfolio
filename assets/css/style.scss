@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Nunito+Sans&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+$Brun : #AF6146;
+$VertClair : #74B68C;
+$RosePale : #FCEEF6;
+$VertFonce : #177A6E;
+$NoirPerso : #393E41;
+$Jaune : #fCC33E;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Montserrat;
+    background-color: #DDD;
+    color: #FFF;
+}
+
+header {
+    max-width: 1400px;
+    margin: 0 auto;
+    border-radius: 0 0 1rem 1rem;
+    background-color: #FFF;
+    position: sticky;
+    img {
+        height: 4rem;
+        width: auto;
+        display: block;
+        margin: 0 auto;
+        padding: 1.1rem;
+    }
+}
+
+main {
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: grey;
+    .premier_bloc {
+        img {
+            width: 100%;
+            position: absolute;
+            margin-left: auto;
+            margin-right: auto;
+            top: 0;
+            left: 0;
+            right: 0;
+            text-align: center;
+            z-index: -1;
+        }
+        h1 {
+            text-align: center;
+            font-weight: 700;
+            font-size: 2.5rem;
+            margin: 1rem auto 5rem auto;
+        }
+
+        p:first-of-type{
+            width: 500px;
+            margin: 0 auto;
+            text-align: center;
+            font-weight: 300;
+        }
+    }
+}
+footer {
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: $NoirPerso;
+    display: flex;
+    font-size: 1.25rem;
+    font-weight: 600;
+    flex-wrap: wrap;
+    justify-content: center;
+    .footer--left-part {
+        width: 50%;
+        p {
+            text-align: center;
+            margin: 1rem 0;
+        }
+        .flp--social-pics {
+            display: flex;
+            justify-content: center;
+            margin: 1rem auto;
+            img {
+                width: 4rem;
+                margin: 0 0.5rem;
+            }
+        }
+    }
+    .footer--right-part {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        p {
+            text-align: center;
+        }
+    }
+    .footer--illustration {
+        background-color: #FFF;
+        width: 200px;
+        border-radius: 0.5rem;
+        padding: 0.5rem;
+        margin-bottom: 1rem;
+    }
+}
